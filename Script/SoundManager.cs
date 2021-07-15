@@ -33,7 +33,7 @@ public class SoundManager : Singleton<SoundManager>
 
         Init();
     }
-    public void Init()
+    public override void Init()
     {
         if (SFX.Count != 0)
         {
